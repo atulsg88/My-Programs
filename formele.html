@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>
+            Practice
+        </title>
+    </head>
+    <body>
+        <form>
+                *Input*<br>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+                *Select*<br>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <br><br>
+                *Select Multiple view*<br>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars" size="4" multiple>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+            <br><br>
+                *Textarea*<br>
+            <textarea name="message" rows="10" cols="30">
+            The cat was playing in the garden.
+            </textarea>
+            <br><br>
+                *Button*onclick*<br>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+            <br><br>
+                *Autocomplete*Autofocus*required*<br>
+            <form action="" autocomplete="on">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" autofocus><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autocomplete="off"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+              <br><br>
+                    *datalist*<br>
+              <input list="browsers">
+            <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+            </datalist>
+        </form>
+    </body> 
